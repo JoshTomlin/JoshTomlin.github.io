@@ -12,4 +12,4 @@ I have been a mathematics workshop demonstrator at the ANU since March 2018. Ove
 *   [MATH2222 - Introduction to Mathematical Thinking: Problem-Solving and Proofs](https://programsandcourses.anu.edu.au/course/MATH2222){:target="_blank"}
 *   [MATH1113 - Mathematical Foundations for Actuarial Studies](https://programsandcourses.anu.edu.au/course/MATH1113){:target="_blank"}
 
-Here is a link to my [Student Experience of Learning & Teaching review](./MATH2222_SELT.pdf){:target="_blank"} for MATH2222.
+Here is a link to my [Student Experience of Learning and Teaching review](./MATH2222_SELT.pdf){:target="_blank"} for MATH2222.
