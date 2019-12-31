@@ -5,7 +5,7 @@ Here are links to my thesis and final honours talk:
 *   [Thesis](./thesis.pdf){:target="_blank"}
 *   [Honours Talk](https://www.youtube.com/watch?v=P3Q9aNFrX8Q){:target="_blank"}
 
-I have been a mathematics workshop demonstrator at the ANU since March 2018. In the past two years the courses I have tutored are:
+I have been a mathematics workshop demonstrator at the ANU since March 2018. Over the past two years the courses I have tutored are:
 
 *   [MATH1005 - Discrete Mathematical Models](https://programsandcourses.anu.edu.au/course/MATH1005){:target="_blank"}
 *   [MATH1013 - Mathematics and Applications 1](https://programsandcourses.anu.edu.au/course/MATH1013){:target="_blank"}
