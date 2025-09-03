@@ -1,21 +1,16 @@
-I am a mathematics PhD student at the University of Adelaide. I am working with Dr David Baraglia in Seiberg-Witten equations of 4-manifold families. I graduated from ANU in December 2019 with first class honours in mathematics. My honours studied surgery on contact manifolds and was supervised by Dr Joan Licata. 
+I am an associate lecturer and researcher at the University of Adelaide. Currently, I coordinator the course [PURE MTH 3019 - Complex Analysis III](https://www.adelaide.edu.au/course-outlines/103236/1/sem-2/){:target="_blank"}. I have recently submitted my PhD thesis for examination and am expecting to graduate in December 2025. I worked with Dr David Baraglia on Seiberg-Witten theory for 4-manifold families. 
+
+I completed my undergradute at ANU in 2019 with first class honours in mathematics. My honours studied surgery on contact 3-manifolds and was supervised by Dr Joan Licata. 
 
 Here are links to my thesis and final honours talk:
 
 *   [Thesis](./thesis.pdf){:target="_blank"}
 *   [Honours Talk](https://www.youtube.com/watch?v=P3Q9aNFrX8Q){:target="_blank"}
 
-I was a mathematics workshop demonstrator at the ANU from March 2018 to December 2021. Over the past four years the courses I tutored were:
+Since 2018, I have been a Workshop Demonstrator for various undergraduate courses at both UoA and ANU. Below are some of  my Student Experience of Learning and Teaching reviews with student comments about my teaching:
 
-*   [MATH1115 - Advanced Mathematics and Applications 1](https://programsandcourses.anu.edu.au/2022/course/math1115){:target="_blank"}
-*   [MATH1116 - Advanced Mathematics and Applications 2](https://programsandcourses.anu.edu.au/course/MATH1116){:target="_blank"}
-*   [MATH2222 - Introduction to Mathematical Thinking: Problem-Solving and Proofs](https://programsandcourses.anu.edu.au/course/MATH2222){:target="_blank"}
-*   [MATH1005 - Discrete Mathematical Models](https://programsandcourses.anu.edu.au/course/MATH1005){:target="_blank"}
-*   [MATH1013 - Mathematics and Applications 1](https://programsandcourses.anu.edu.au/course/MATH1013){:target="_blank"}
-*   [MATH1113 - Mathematical Foundations for Actuarial Studies](https://programsandcourses.anu.edu.au/course/MATH1113){:target="_blank"}
-
-Here are links to my Student Experience of Learning and Teaching reviews with student comments about my teaching over the last few semesters:
-
+*   [2024 Semester 1 - MATHS1011](./MATHS1011.2024Sem1.MathematicsIA){:target="_blank"}
+*   [2023 Semester 2 - MATHS1011](./MATHS1011.2023Sem2.MathematicsIB){:target="_blank"}
 *   [2021 Semester 2 - MATH1116](./MATH1116.Sem2.2021.TeacherSurveyResults.pdf){:target="_blank"}
 *   [2021 Semester 1 - MATH2222](./MATH2222.Sem1.2021.TeacherSurveyResults.pdf){:target="_blank"}
 *   [2020 Semester 2 - MATH1116](./MATH1116.Sem2.2020.TeacherSurveyResults.pdf){:target="_blank"}
