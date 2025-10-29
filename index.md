@@ -1,6 +1,6 @@
 I am an Associate Lecturer and researcher at the University of Adelaide. Currently, I coordinate the course [PURE MTH 3019 - Complex Analysis III](https://www.adelaide.edu.au/course-outlines/103236/1/sem-2/){:target="_blank"}. I have recently received my PhD from the University of Adelaide with commendation from the Dean for doctoral thesis excellence. I worked with Dr. David Baraglia on Seiberg-Witten theory for 4-manifold families. Below are links to my thesis and two of my papers.
 
-*   [PhD Thesis](./PhDthesis.pdf){:target="_blank"}
+*   [PhD Thesis](./Thesis.pdf){:target="_blank"}
 *   [A general connected sum formula for the families Bauer-Furuta invariant](https://arxiv.org/abs/2510.14201){:target="_blank"}
 *   [A general connected sum formula for the families Seiberg-Witten invariant](https://arxiv.org/abs/2510.17141){:target="_blank"}
 
