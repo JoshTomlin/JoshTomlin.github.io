@@ -316,6 +316,11 @@ a {
   max-width: 720px;
 }
 
+.home-about {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
 .link-row {
   display: flex;
   flex-wrap: wrap;
