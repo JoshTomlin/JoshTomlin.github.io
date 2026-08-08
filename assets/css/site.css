@@ -733,7 +733,6 @@ a {
 
 .teaching-role + .teaching-role {
   padding-top: 65px;
-  border-top: 1px solid var(--line);
 }
 
 .role-heading {
