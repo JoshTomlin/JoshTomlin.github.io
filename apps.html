@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#15352c">
-    <meta name="description" content="Applications developed by Joshua Tomlin in JavaScript, C++, Python and Godot.">
-    <meta property="og:title" content="Apps &mdash; Joshua Tomlin">
-    <meta property="og:description" content="Applications developed in JavaScript, C++, Python and Godot.">
+    <meta name="description" content="Programming projects developed by Joshua Tomlin in JavaScript, C++, Python and Godot.">
+    <meta property="og:title" content="Programming &mdash; Joshua Tomlin">
+    <meta property="og:description" content="Programming projects developed in JavaScript, C++, Python and Godot.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://joshtomlin.github.io/apps.html">
     <meta property="og:image" content="https://joshtomlin.github.io/public/og.png">
     <meta name="twitter:card" content="summary_large_image">
-    <title>Apps &mdash; Joshua Tomlin</title>
+    <title>Programming &mdash; Joshua Tomlin</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;family=STIX+Two+Text:wght@400;500&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/site.css">
   </head>
   <body>
@@ -27,8 +27,7 @@
             <a href="/">Home</a>
             <a href="/research.html">Research</a>
             <a href="/teaching.html">Teaching</a>
-            <a href="/apps.html" aria-current="page">Apps</a>
-            <a href="/bridge.html">Bridge</a>
+            <a href="/apps.html" aria-current="page">Programming</a>
           </nav>
         </div>
       </header>
@@ -36,7 +35,7 @@
       <main id="main">
         <section class="banner page-banner">
           <div class="banner-inner site-width">
-            <h1>Apps</h1>
+            <h1>Programming</h1>
             <p class="banner-intro">Applications I have developed in JavaScript, C++, Python and Godot.</p>
           </div>
         </section>
@@ -54,12 +53,12 @@
                   <span>
                     <span class="work-title">Bridge Lab</span>
                     <span class="project-tech">C++ &middot; WebAssembly &middot; JavaScript</span>
-                    <span class="work-note">An imperfect-information declarer-play solver that searches across possible defender layouts without strategy fusion.</span>
+                    <span class="work-note">A bridge declarer-play tool that searches for one policy across possible defender hands.</span>
                   </span>
                 </summary>
                 <div class="project-panel">
-                  <p>Bridge Lab samples defender layouts compatible with the known cards and user-supplied constraints, then applies an optimised <a class="inline-link" href="https://arxiv.org/abs/1911.07960" target="_blank" rel="noopener">&alpha;&mu; search</a> over those worlds. Unlike pure double-dummy Monte Carlo analysis, it retains a single contingent declarer strategy across possible layouts, reducing strategy fusion. I am also developing probability-weighted sampling, adversarial layouts and remembered counterexamples to improve which hidden layouts are tested.</p>
-                  <p>The computational engine is written in C++ and compiled to WebAssembly with Emscripten. A JavaScript interface handles deal entry, constraints, visualisation and locally stored analysis history.</p>
+                  <p>Bridge Lab takes the visible North and South hands and constraints on the defenders. It counts and samples legal hidden deals, then uses <a class="inline-link" href="https://arxiv.org/abs/1911.07960" target="_blank" rel="noopener">&alpha;&mu; search</a> to find one declarer policy across those possible worlds. Declarer must play the same card in deals that are still indistinguishable, but the policy can change after a defender reveals new information.</p>
+                  <p>AlphaMu2 starts with a larger pool of deals, selects a smaller varied set, tests the fixed policy on held-out makeable layouts and adds distinct failures to the next search. The C++20 engine uses DDS for exact leaf values and compiles to WebAssembly. The JavaScript site provides deal entry, constraints, interactive play, simulation and reports explaining each decision.</p>
                   <div class="abstract-actions">
                     <a class="text-link" href="https://joshtomlin.github.io/Bridge-Solver/" target="_blank" rel="noopener">Open app <span aria-hidden="true">&#8599;</span></a>
                     <a class="text-link" href="https://github.com/JoshTomlin/Bridge-Solver" target="_blank" rel="noopener">View source <span aria-hidden="true">&#8599;</span></a>
@@ -73,12 +72,12 @@
                   <span>
                     <span class="work-title">JBLD</span>
                     <span class="project-tech">JavaScript &middot; React &middot; PWA</span>
-                    <span class="work-note">A training timer and solve-analysis tool for blindfolded Rubik&rsquo;s Cube solving, with a focus on 3-Style.</span>
+                    <span class="work-note">A local-first timer that reconstructs and analyses blindfolded Rubik&rsquo;s Cube solves from smart-cube moves.</span>
                   </span>
                 </summary>
                 <div class="project-panel">
-                  <p>JBLD records solves, connects to supported Bluetooth smart cubes and reconstructs blindfolded solutions into commutators. It reports move counts, letter pairs, algorithm timings, memo and execution time, pauses and execution mistakes. It supports 3-Style, M2, Old Pochmann and Orozco, with configurable buffers, letter schemes and cube orientations.</p>
-                  <p>The React progressive web app is designed for mobile use, works offline and stores solve and session history locally. Optional Supabase sync can merge that history across devices.</p>
+                  <p>JBLD connects to supported Bluetooth smart cubes and records the scramble, solve moves and timestamps. It replays the solve, identifies cycles, parity, flips, twists and cycle breaks, and converts the result to the user&rsquo;s letter scheme and buffers. It shows recognition and execution time for each case and can build a recommended memo and solution.</p>
+                  <p>The React PWA stores sessions, solves, commutators and the user&rsquo;s algorithm library in the browser. It also provides practice, review, history, statistics, import and export. Its core timer, parser, library and history work offline after the app has been cached; no remote server or sync service is used.</p>
                   <div class="abstract-actions">
                     <a class="text-link" href="https://joshtomlin.github.io/JBLD/" target="_blank" rel="noopener">Open app <span aria-hidden="true">&#8599;</span></a>
                     <a class="text-link" href="https://github.com/JoshTomlin/JBLD" target="_blank" rel="noopener">View source <span aria-hidden="true">&#8599;</span></a>
@@ -92,12 +91,12 @@
                   <span>
                     <span class="work-title">Love Letter</span>
                     <span class="project-tech">TypeScript &middot; React</span>
-                    <span class="work-note">A browser implementation of Love Letter designed for human-versus-bot play.</span>
+                    <span class="work-note">A playable two-player browser game with a bot that estimates hidden cards and explains its decisions.</span>
                   </span>
                 </summary>
                 <div class="project-panel">
-                  <p>The TypeScript and React application separates a deterministic rules engine, bot strategies and the user interface. Bots receive only each player&rsquo;s visible information rather than the full hidden game state; the interface submits player actions and renders engine events.</p>
-                  <p>The project is being developed towards complete classic-card rules, round scoring, two-player setup and playable human-versus-bot games. Automated tests cover the engine and interface.</p>
+                  <p>Love Letter is a complete two-player browser game. Its bot receives only the information available to a real player: its own hand, public discards and actions, cards revealed to it, and the number of cards left. It keeps a probability range for the opponent&rsquo;s hand, updates that range from public choices and scores each legal action against it.</p>
+                  <p>The bot can also test actions across sampled hidden deals and mix between close choices. The Bot brain panel shows its current range, evidence, action scores, strategy probabilities, sample count and decision time. The deterministic TypeScript engine contains the classic rules and scoring, while gameplay and analysis run entirely in the browser with no backend. The strategy uses ideas from imperfect-information game solving, but it is not claimed to be game-theory optimal.</p>
                   <div class="abstract-actions">
                     <a class="text-link" href="https://joshtomlin.github.io/Love-Letter/" target="_blank" rel="noopener">Open app <span aria-hidden="true">&#8599;</span></a>
                     <a class="text-link" href="https://github.com/JoshTomlin/Love-Letter" target="_blank" rel="noopener">View source <span aria-hidden="true">&#8599;</span></a>

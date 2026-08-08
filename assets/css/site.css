@@ -532,7 +532,8 @@ a {
   line-height: 1.17;
 }
 
-.research-list .work-title {
+.research-list .work-title,
+.apps-list .work-title {
   font-family: "STIX Two Text", Georgia, serif;
   font-size: clamp(23px, 2.7vw, 29px);
   font-weight: 500;
@@ -634,16 +635,18 @@ a {
 
 .project-panel {
   margin: 0;
-  padding: 26px 30px 30px 184px;
+  padding: 30px 56px 34px;
   background: rgba(96, 125, 113, 0.1);
   border-top: 1px solid var(--line);
 }
 
 .project-panel p {
-  max-width: 720px;
   margin: 0;
-  color: rgba(21, 53, 44, 0.76);
-  font-size: 14px;
+  color: var(--ink);
+  font-family: "STIX Two Text", Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.002em;
   line-height: 1.7;
 }
 
@@ -1021,10 +1024,11 @@ a {
 
   .project-panel {
     margin: 0;
-    padding: 22px 24px 26px;
+    padding: 24px 28px 28px;
   }
 
-  .abstract-panel p {
+  .abstract-panel p,
+  .project-panel p {
     font-size: 17px;
   }
 
