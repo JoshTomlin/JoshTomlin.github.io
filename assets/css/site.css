@@ -5,7 +5,7 @@
   --paper-deep: #ebe8df;
   --white: #fffef9;
   --sage: #9fb0a6;
-  --sage-deep: #607d71;
+  --sage-deep: #4e695e;
   --gold: #c5a36b;
   --line: rgba(21, 53, 44, 0.17);
   --serif: "Instrument Serif", Georgia, serif;
@@ -561,7 +561,7 @@ a {
   display: block;
   max-width: 620px;
   margin-top: 8px;
-  color: rgba(21, 53, 44, 0.64);
+  color: rgba(21, 53, 44, 0.74);
   font-size: 12px;
 }
 
@@ -569,7 +569,7 @@ a {
   display: block;
   margin-top: 7px;
   color: var(--sage-deep);
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -908,8 +908,8 @@ a {
   gap: 20px;
   align-items: center;
   min-height: 76px;
-  color: rgba(21, 53, 44, 0.56);
-  font-size: 10px;
+  color: rgba(21, 53, 44, 0.72);
+  font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -1088,8 +1088,22 @@ a {
 }
 
 @media (max-width: 480px) {
+  .site-header-inner {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
   .site-nav {
-    justify-content: flex-start;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-between;
+    gap: 0;
+    overflow: visible;
+  }
+
+  .site-nav a {
+    font-size: 11px;
   }
 
   .feedback-row {
